@@ -271,7 +271,7 @@
 }
 
 .copyright-block {
-    height: 50px;
+    padding: 10px 0;
     color: #313e46;
     background-image: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     background-image: -moz-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
