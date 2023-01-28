@@ -2,9 +2,32 @@
     .main-header-menu-container .main-menu-link-container {
         margin-left: 20px;
     }
+    .who-are-we-container .video-container {
+        min-height: 750px;
+    }
 }
-@media screen and (min-width: 576px) {}
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 992px) {}
-@media screen and (min-width: 1200px) {}
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 576px) {
+    .who-are-we-container .video-container {
+        height: 800px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .who-are-we-container .video-container {
+        height: 600px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .who-are-we-container .video-container {
+        height: 650px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .who-are-we-container .video-container {
+        height: 700px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .who-are-we-container .video-container {
+        height: 800px;
+    }
+}

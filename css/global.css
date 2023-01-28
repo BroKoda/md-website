@@ -4,6 +4,7 @@ body {
     background: #f8fafb;
     font-family: 'Raleway', sans-serif;
     color: #68757e;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {

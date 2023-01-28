@@ -44,7 +44,7 @@
 
 .main-header .logo-container-row img {
     position: relative;
-    width: 300px;
+    width: 340px;
     height: auto;
 }
 
@@ -221,6 +221,7 @@
     font-weight: 600;
     line-height: 1.2;
     font-size: 22px;
+    width: 100%;
 }
 
 .news-container .article-container .article-text-container a {
