@@ -1,0 +1,55 @@
+.thank-you-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.thank-you-header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.thank-you-header .background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thank-you-header .logo-container-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.thank-you-header .logo-container-row img {
+    position: relative;
+    width: 250px;
+    height: auto;
+}
+
+.thank-you .back-to-home i {
+    transition: 0.5s all ease-out;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.thank-you .back-to-home:hover i {
+    margin-right: 10px;
+    margin-left: 5px;
+}
