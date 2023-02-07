@@ -232,29 +232,29 @@
 <div class="container news-container my-5 py-5" id="hirek">
     <div class="row">
         <div class="col-12 col-md-8 order-2 order-md-1 mt-3 mt-md-0">
-            <div class="row g-2">
-                <div class="col-12 col-lg-6">
-                    <div class="container article-container wow animate__animated animate__fadeInUp">
-                        <div class="row h-100">
-                            <div class="col-12 h-100">
-                                <div class="article-details-container d-flex h-100">
-                                    <div class="article-image-container align-self-center">
-                                        <img src="img/news/2023-majus-31-ei-fellepes-info_thumb.jpg" alt="" />
-                                    </div>
-                                    <div class="article-text-container">
-                                        <p class="article-date">2023. január</p>
-                                        <h4>Fellépés info</h4>
-                                        <p class="mb-0">
-                                            <a href="./news/2023-majus-31-ei-fellepes-info.html">
-                                                Tovabb a cikkhez <i class="bi bi-arrow-right-short"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row g-2 justify-content-center">
+<!--                <div class="col-12 col-lg-6">-->
+<!--                    <div class="container article-container wow animate__animated animate__fadeInUp">-->
+<!--                        <div class="row h-100">-->
+<!--                            <div class="col-12 h-100">-->
+<!--                                <div class="article-details-container d-flex h-100">-->
+<!--                                    <div class="article-image-container align-self-center">-->
+<!--                                        <img src="img/news/2023-majus-31-ei-fellepes-info_thumb.jpg" alt="" />-->
+<!--                                    </div>-->
+<!--                                    <div class="article-text-container">-->
+<!--                                        <p class="article-date">2023. január</p>-->
+<!--                                        <h4>Fellépés info</h4>-->
+<!--                                        <p class="mb-0">-->
+<!--                                            <a href="./news/2023-majus-31-ei-fellepes-info.html">-->
+<!--                                                Tovabb a cikkhez <i class="bi bi-arrow-right-short"></i>-->
+<!--                                            </a>-->
+<!--                                        </p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="col-12 col-lg-6">
                     <div class="container article-container wow animate__animated animate__fadeInUp">
                         <div class="row h-100">
@@ -340,21 +340,21 @@
         </div>
         <div class="col-12 col-md-6 col-lg-5 offset-lg-1 mt-3 mt-md-0">
             <div class="container contact-container wow animate__animated animate__fadeInUp py-3">
-                <form>
+                <form action="https://formsubmit.co/kottix96@gmail.com" method="POST">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="name" placeholder="Jason">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Jason">
                         <label for="name">Név</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
                         <label for="email">Email</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="number" class="form-control" id="phone" placeholder="06 00 000 0000">
+                        <input type="number" class="form-control" id="phone" name="phone" placeholder="06 00 000 0000">
                         <label for="phone">Telefonszám</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="message" style="height: 150px"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="message" name="message" style="height: 150px"></textarea>
                         <label for="message">Megjegyzés</label>
                     </div>
                     <button type="submit" class="btn">Küldés</button>
